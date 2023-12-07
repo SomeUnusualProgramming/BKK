@@ -4,7 +4,7 @@ body {
   font-family: "Open Sans", sans-serif;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bea2e7+0,86b7e7+100 */
 background-color: grey;
-  background-size: 100%;
+  background-size: auto;
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bea2e7', endColorstr='#86b7e7',GradientType=0 );
   /* IE6-9 */

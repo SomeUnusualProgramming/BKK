@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+body {
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bea2e7+0,86b7e7+100 */
+  background-image: url(../images/girl.jpg); 
+  background-size: 100%;
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bea2e7', endColorstr='#86b7e7',GradientType=0 );
+  /* IE6-9 */
+}
+
+.container ul {
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  list-style: none;
+  position: absolute;
+  padding: 1px 150px;
+  color: white;
+  font-size: 14px;
+}
+.container ul:before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  border-left: 2px dashed #fff;
+}
+.container ul li {
+  position: relative;
+  margin-left: 30px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
+  width: 450px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.08);
+}
+.container ul li:not(:first-child) {
+  margin-top: 100px;
+}
+.container ul li > span {
+  width: 2px;
+  height: 100%;
+  background: #fff;
+  left: -30px;
+  top: 0;
+  position: absolute;
+}
+.container ul li > span:before, .container ul li > span:after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  background: #86b7e7;
+  left: -5px;
+  top: 0;
+}
+.container ul li span:after {
+  top: 100%;
+}
+.container ul li > div {
+  margin-left: 10px;
+}
+.container div .title, .container div .type {
+  font-weight: 600;
+  font-size: 22px;
+  color: black;
+}
+.container div .info {
+  font-weight: 300;
+  font-size: 18px;
+  color: black;
+  font-weight: 1000;
+}
+.container div > div {
+  margin-top: 5px;
+}
+.container span.number {
+  height: 100%;
+}
+.container span.number span {
+  position: absolute;
+  font-size: 16px;
+  left: -140px;
+  font-weight: bold;
+}
+.container span.number span:first-child {
+  top: 0;
+}
+.container span.number span:last-child {
+  top: 100%;
+}
+ .material-symbols-outlined {
+    display: inline-block;
+    margin-right: 10px; /* Dostosuj margines zgodnie z preferencjami */
+    color: black;
+  }
+.container-icon {
+  display: flex;
+}
+.myspan {
+  color: black;
+  font-weight: 600;
+}
